@@ -7,7 +7,7 @@ async function conectar() {
 
     const mysql = require('mysql2/promise');
 
-    const conect = await mysql.createConnection('mysql://root:root@localhost:3306/papelaria_flamingo')
+    const conect = await mysql.createConnection('mysql://bd69817776ccc7:92d49da9@us-cdbr-east-04.cleardb.com/heroku_b0db0a8001d0804')
     global.minhaConexao = conect;
     return conect;
 }
